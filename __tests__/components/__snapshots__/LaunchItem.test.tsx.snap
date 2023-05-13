@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LaunchItem renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#1c1c1e",
+        "borderRadius": 16,
+        "borderWidth": 1,
+        "padding": 16,
+      },
+      Object {
+        "opacity": 1,
+      },
+    ]
+  }
+  testID="test-id"
+>
+  <Text
+    style={
+      Object {
+        "color": "#ff4e2b",
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+    March 29, 2023
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 20,
+        "fontWeight": "500",
+        "marginVertical": 8,
+      }
+    }
+  >
+    Test Mission Name
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#38373c",
+          "borderRadius": 8,
+          "padding": 6,
+        },
+        Object {
+          "backgroundColor": "#38373c",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontSize": 14,
+            "fontWeight": "500",
+          },
+          Object {
+            "color": "#fff",
+          },
+        ]
+      }
+    >
+      Test Rocket Name
+    </Text>
+  </View>
+</View>
+`;

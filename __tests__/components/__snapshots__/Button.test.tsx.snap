@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component renders correctly when disabled 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 8,
+        "elevation": 3,
+        "justifyContent": "center",
+        "marginVertical": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
+      },
+      Object {
+        "backgroundColor": "#333",
+        "opacity": 1,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#010103",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "letterSpacing": 0.25,
+        "lineHeight": 21,
+      }
+    }
+  >
+    Test Button
+  </Text>
+</View>
+`;
+
+exports[`Button component renders correctly with title 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 8,
+        "elevation": 3,
+        "justifyContent": "center",
+        "marginVertical": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
+      },
+      Object {
+        "backgroundColor": "#ff4e2b",
+        "opacity": 1,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#010103",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "letterSpacing": 0.25,
+        "lineHeight": 21,
+      }
+    }
+  >
+    Test Button
+  </Text>
+</View>
+`;
